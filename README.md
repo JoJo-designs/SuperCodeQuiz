@@ -15,4 +15,5 @@ when time runs out it send the user to a the last page. I have a function that w
 also take users to the end page when they answerd all the questions
 
 My next step is to make a single question work and when it is answerd the user is
-sent to the end page.
+sent to the end page. I need to make the an event listener that will make know which 
+button was clicked and be able to know if it is correct or incorrect

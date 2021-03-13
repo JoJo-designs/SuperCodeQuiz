@@ -1,3 +1,9 @@
 body {
     background: lightblue;
 }
+
+div{
+    background: lightpink;
+    display: inline;
+    margin: 10px;
+}
