@@ -1,9 +1,10 @@
 //setting veruables 
+var highScore = document.querySelector("#highScoreBox");
 var scoreValue = document.querySelector("#placeForScore");
 var userName = document.querySelector("#nameBox").value;
-var highScore = document.querySelector("#highScoreBox");
 var submitButton = document.querySelector("#submit");
-var lastScore; 
+
+var lastScore; //save The last score that has played
 var lastPlayer; // save the name the last user.
 
 var score = localStorage.getItem("score");
@@ -15,6 +16,7 @@ submitButton.addEventListener("click", function(event) {
     event.preventDefault();
     document.getElementById("nameBox").innerHTML = localStorage.getItem("namebox");
     saveLastScore();
+    console.log()
 });
 
 
@@ -28,3 +30,4 @@ highScore.textContent = lastScore; // display the last user name beside the last
 scoreValue.textContent = score;
 
 // need to collect the name from the user and set it to local storage
+
