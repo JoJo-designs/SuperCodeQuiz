@@ -17,3 +17,5 @@ also take users to the end page when they answerd all the questions
 My next step is to make a single question work and when it is answerd the user is
 sent to the end page. I need to make the an event listener that will make know which 
 button was clicked and be able to know if it is correct or incorrect
+
+I have made four questions work and when the last question is anwesed the user is sent to an end page and the score is saved. the use can input their name and click a button. the score will be saved as last score but at the moment the name doesn't save. when I get the name to save I think I can start to make it look pretty.
