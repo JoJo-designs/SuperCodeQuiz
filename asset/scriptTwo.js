@@ -42,8 +42,8 @@ function saveLastScore() {
 
 
 // fill in the content for the areas that need to be filled in the namevalue is not working
-highScore.textContent = lastScore; 
-nameValue.textContent = perams.playName;
-scoreValue.textContent = score;
+highScore.textContent = lastScore; // score from the last play
+nameValue.textContent = perams.playName; // makes the name appear under the last score
+scoreValue.textContent = score; // recently eared score
 
 
