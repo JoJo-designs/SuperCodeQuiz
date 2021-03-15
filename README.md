@@ -19,3 +19,5 @@ sent to the end page. I need to make the an event listener that will make know w
 button was clicked and be able to know if it is correct or incorrect
 
 I have made four questions work and when the last question is anwesed the user is sent to an end page and the score is saved. the use can input their name and click a button. the score will be saved as last score but at the moment the name doesn't save. when I get the name to save I think I can start to make it look pretty.
+
+I think I finally have everything working right. it was hard to get here and I needed to reach out for help a couple times. 
