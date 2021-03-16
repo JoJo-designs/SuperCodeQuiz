@@ -1,0 +1,43 @@
+h2{
+    font-size: 30px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 900;
+    margin: 30px;
+    color: #424242;
+}
+
+
+h3{
+    font-size: 28px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    margin: 20px;
+    display: inline;
+    color: #424242;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+div {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: #E8AF2E;
+}
+
+p {
+    display: inline;
+    margin-bottom: 15px;
+    font-size: 28px;
+    font-variant: small-caps;
+}
+
+input {
+    display: inline;
+    height: 30px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #424242;
+}
