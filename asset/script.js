@@ -21,12 +21,13 @@ var questions = ["Q.1: What does this function do?", "Q.2: Which statement is tr
 var functionArray = [];
 var nextQuestion;
 functionArray.push(askQuestionOne);
-
+var maxTime = 60;
 
 
 //funtion that runs the timer
 function countDown() {
-    var maxTime = 60;
+    maxTime = 60;
+    timeBox.textContent = maxTime;
 
   var timeInterval = setInterval(function () {
     timeBox.textContent = maxTime;
@@ -110,17 +111,18 @@ function askQuestionFour() {
 // This will check the answers of the questions
 function checkQuestion() {
         if (element.textContent === "Two of these are right" || 
-        element.textContent === "CSS stands for Cascading Style sheet." || 
-        element.textContent === "index.html" ||
-        element.textContent === "1 and 3") {
-            score = score + 10
-            console.log ("correct")
-            console.log (score)
-            nextQuestion();
+            element.textContent === "CSS stands for Cascading Style sheet." || 
+            element.textContent === "index.html" ||
+            element.textContent === "1 and 3") {
+              score = score + 10
+              console.log ("correct")
+              console.log (score)
+              nextQuestion();
        } else  {
-            console.log ("incorrect")
-            console.log (score)
-            nextQuestion();
+              console.log ("incorrect")
+              console.log (score)
+              maxTime = maxTime -10
+              nextQuestion();
 }};
 
 countDown();
